@@ -1,3 +1,7 @@
+<?php 
+    echo "This is an embeded php script"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
