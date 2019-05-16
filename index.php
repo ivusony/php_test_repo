@@ -1,5 +1,8 @@
 <?php 
-    echo "This is an embeded php script"
+    var $data = $_POST['name'];
+    if (isset($data)) {
+        echo "Your name is $data"
+    }
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +16,7 @@
 <body>
     <h1>Custom test page served by apache</h1>
     <h3>Served by apache2</h3>
-    <form action="./script/form.php" method="GET">
+    <form action="./index.php" method="POST">
         <input type="text" placeholder="Enter your name" name="name">
         <input type="text" placeholder="Enter city" name="city">
         <input type="submit" value="Submit form">
