@@ -18,11 +18,11 @@
     </form>
 
     <?php 
-        
+        $name = $_GET['name'];
+        $city = $_GET['city'];
 
         if (isset($_GET['submit'])) {
-            $name = $_GET['name'];
-            $city = $_GET['city'];
+            
             echo 'You are '.$name.' from '.$city.'. Greetings!'
         }
     ?>
