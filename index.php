@@ -11,14 +11,17 @@
 <body>
     <h1>Custom test page served by apache</h1>
     <h3>Served by apache2</h3>
-    <form action="index.html" method="POST">
+    <form action="" method="GET">
         <input type="text" placeholder="Enter your name" name="name">
         <input type="text" placeholder="Enter city" name="city">
         <input type="submit" value="Submit form">
     </form>
 
     <?php 
-        echo 'this is from php'
+        $name = $_GET['name'];
+        $city = $_GET['city'];
+
+        echo 'You are '.$name.' from '.$city.'. Greetings!'
     ?>
 </body>
 </html>
