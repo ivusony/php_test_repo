@@ -27,7 +27,7 @@
                     if(mysqli_query($conn, $insert)){
                         echo "Inserted to DB successfully";
                     }else{
-                        echo "Not added. Error"
+                        echo "Not added. Error";
                     }
                 }
 
