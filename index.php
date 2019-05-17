@@ -14,14 +14,15 @@
     <form action="" method="GET">
         <input type="text" placeholder="Enter your name" name="name">
         <input type="text" placeholder="Enter city" name="city">
-        <input type="submit" value="Submit form">
+        <input type="submit" value="Submit form" name='submit'>
     </form>
 
     <?php 
-        $name = $_GET['name'];
-        $city = $_GET['city'];
+        
 
-        if (isset($name) && isset($city)) {
+        if (isset($_GET['submit'])) {
+            $name = $_GET['name'];
+            $city = $_GET['city'];
             echo 'You are '.$name.' from '.$city.'. Greetings!'
         }
     ?>
