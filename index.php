@@ -23,7 +23,7 @@
 
         if (isset($_GET['submit'])) {
             
-            echo 'You are '.$name.' from '.$city.'. Greetings!'
+            echo 'You are '.$name.' from '.$city.'. Greetings!';
         }
     ?>
 </body>
