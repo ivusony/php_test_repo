@@ -17,7 +17,7 @@
 <body>
         <h1>
             <?php 
-                $username = mysql_real_escape_string($_GET['username']); 
+                $username = $_GET['username']; 
                 $age = $_GET['age'];
 
                 if (isset($_GET['submit'])) {
