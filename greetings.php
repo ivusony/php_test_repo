@@ -36,5 +36,6 @@
             
             ?>
         </h1>
+        <script src="./js/dist/index_page.js"></script>
 </body>
 </html>
