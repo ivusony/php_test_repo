@@ -21,7 +21,9 @@
         $name = $_GET['name'];
         $city = $_GET['city'];
 
-        echo 'You are '.$name.' from '.$city.'. Greetings!'
+        if (isset($name) && isset($city)) {
+            echo 'You are '.$name.' from '.$city.'. Greetings!'
+        }
     ?>
 </body>
 </html>
