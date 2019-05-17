@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./js/src/index.js?");
+eval("setTimeout(function(){\r\n    console.log('works on index page');\r\n}, 5000)\n\n//# sourceURL=webpack:///./js/src/index.js?");
 
 /***/ })
 
