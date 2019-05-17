@@ -17,12 +17,12 @@
 <body>
         <h1>
             <?php 
-                $name = $_GET['username'];
-                $city = $_GET['age'];
+                $username = $_GET['username'];
+                $age = $_GET['age'];
 
                 if (isset($_GET['submit'])) {
                     
-                    $insert = "INSERT INTO users (username, age) VALUES ('ivan', 30) ";
+                    $insert = "INSERT INTO users (username, age) VALUES (".$username.",".$age.")";
 
                     if(mysqli_query($conn, $insert)){
                         echo "Inserted to DB successfully";
