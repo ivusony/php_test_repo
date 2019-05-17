@@ -3,10 +3,7 @@
 
     $conn = Open();
 
-    echo "Connected Successfully";
-    
-    Close($conn);
-
+   
 ?>
 
 <html>
@@ -20,13 +17,23 @@
 <body>
         <h1>
             <?php 
-                $name = $_GET['name'];
-                $city = $_GET['city'];
+                $name = $_GET['username'];
+                $city = $_GET['age'];
 
                 if (isset($_GET['submit'])) {
                     
-                    echo 'You are '.$name.' from '.$city.'. Greetings!';
+                    $insert = "INSERT INTO users (username, age) VALUES ('ivan', 30) ";
+
+                    if(mysqli_query($conn, $insert)){
+                        echo "Inserted to DB successfully";
+                    }else{
+                        echo "Not added. Error"
+                    }
                 }
+
+                
+                Close($conn);
+            
             ?>
         </h1>
 </body>

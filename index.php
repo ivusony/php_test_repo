@@ -12,8 +12,8 @@
     <h1>Custom test page served by apache</h1>
     <h3>Served by apache2</h3>
     <form action="./greetings.php" method="GET">
-        <input type="text" placeholder="Enter your name" name="name">
-        <input type="text" placeholder="Enter city" name="city">
+        <input type="text" placeholder="Enter your username" name="username">
+        <input type="text" placeholder="Enter age" name="age">
         <input type="submit" value="Submit form" name='submit'>
     </form>
 
