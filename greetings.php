@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<?php include 'db_conn.php';
 
-    $conn = Open();
-
-   
-?>
 
 <html>
 <head>
@@ -17,6 +12,11 @@
 <body>
         <h1>
             <?php 
+
+                include 'db_conn.php';
+
+                $conn = Open();
+
                 $username = $_GET['username']; 
                 $age = $_GET['age'];
 
@@ -24,7 +24,7 @@
                     
                     $insert = "INSERT INTO users (username, age) VALUES ('$username','$age')";
 
-                    if(mysqli_query($insert)){
+                    if(mysqli_query($conn, $insert)){
                         echo "Inserted to DB successfully";
                     }else{
                         echo "Not added. Error";
