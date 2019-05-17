@@ -22,7 +22,7 @@
 
                 if (isset($_GET['submit'])) {
                     
-                    $insert = "INSERT INTO users (username, age) VALUES (".$username.",".$age.")";
+                    $insert = "INSERT INTO users (username, age) VALUES ($username,$age)";
 
                     if(mysqli_query($conn, $insert)){
                         echo "Inserted to DB successfully";
