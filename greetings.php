@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<?php include 'db_conn.php';
+
+    $conn = Open();
+
+    echo "Connected Successfully";
+    
+    Close($conn);
+
+?>
+
 <html>
 <head>
     <meta charset="utf-8" />
