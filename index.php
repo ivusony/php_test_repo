@@ -1,9 +1,4 @@
-<?php 
-    var $data = $_POST['name'];
-    if (isset($data)) {
-        echo "Your name is $data"
-    }
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,5 +16,9 @@
         <input type="text" placeholder="Enter city" name="city">
         <input type="submit" value="Submit form">
     </form>
+
+    <?php 
+        echo 'this is from php'
+    ?>
 </body>
 </html>
