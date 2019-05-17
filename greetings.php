@@ -17,14 +17,14 @@
 <body>
         <h1>
             <?php 
-                $username = $_GET['username'];
+                $username = mysql_real_escape_string($_GET['username']); 
                 $age = $_GET['age'];
 
                 if (isset($_GET['submit'])) {
                     
-                    $insert = "INSERT INTO users (username, age) VALUES ($username,$age)";
+                    $insert = "INSERT INTO users (username, age) VALUES ('$username','$age')";
 
-                    if(mysqli_query($conn, $insert)){
+                    if(mysqli_query($insert)){
                         echo "Inserted to DB successfully";
                     }else{
                         echo "Not added. Error";
