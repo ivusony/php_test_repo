@@ -105,7 +105,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_index_page_src_controller__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/index_page_src/controller */ \"./js/src/index_page_src/controller.js\");\n/* harmony import */ var _src_index_page_src_controller__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_index_page_src_controller__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _src_css_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/css/index.css */ \"./js/src/css/index.css\");\n/* harmony import */ var _src_css_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_src_css_index_css__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\n\r\nsetTimeout(function(){\r\n    console.log('works on index page');\r\n}, 5000)\n\n//# sourceURL=webpack:///./js/src/index_page_entry.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_index_page_src_controller__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/index_page_src/controller */ \"./js/src/index_page_src/controller.js\");\n/* harmony import */ var _src_index_page_src_controller__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_index_page_src_controller__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/index.css */ \"./js/src/css/index.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\n\r\nsetTimeout(function(){\r\n    console.log('works on index page');\r\n}, 5000)\n\n//# sourceURL=webpack:///./js/src/index_page_entry.js?");
 
 /***/ }),
 
@@ -127,7 +127,7 @@ eval("\n\n//# sourceURL=webpack:///./js/src/index_page_src/controller.js?");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\r\\n    background: red;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./js/src/css/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\r\\n    background-color: red;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./js/src/css/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
