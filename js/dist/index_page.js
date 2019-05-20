@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./js/src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./js/src/index_page_entry.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./js/src/index.js":
-/*!*************************!*\
-  !*** ./js/src/index.js ***!
-  \*************************/
+/***/ "./js/src/index_page_entry.js":
+/*!************************************!*\
+  !*** ./js/src/index_page_entry.js ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("setTimeout(function(){\r\n    console.log('works on index page');\r\n}, 5000)\n\n//# sourceURL=webpack:///./js/src/index.js?");
+eval("setTimeout(function(){\r\n    console.log('works on index page');\r\n}, 5000)\n\n//# sourceURL=webpack:///./js/src/index_page_entry.js?");
 
 /***/ })
 
