@@ -1,4 +1,4 @@
-import * as index_controller from '../src/index_page_src/controller';
+// import * as index_controller from './index_page_src/controller';
 
 import  './css/index.css';
 
