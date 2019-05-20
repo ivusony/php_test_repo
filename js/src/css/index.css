@@ -1,3 +1,11 @@
 body {
     background-color: red;
 }
+
+h1 {
+    text-align: right;
+}
+
+div.main_div {
+    background-color: aqua;
+}
