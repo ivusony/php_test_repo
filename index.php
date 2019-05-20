@@ -17,6 +17,7 @@
         <input type="submit" value="Submit form" name='submit'>
     </form>
 
-    <script src="./js/dist/index_page.js"></script>
+   
+    <script src="/js/dist/index_page.js"></script>
 </body>
 </html>
